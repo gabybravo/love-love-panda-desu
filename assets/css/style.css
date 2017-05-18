@@ -6,3 +6,116 @@ font-family: 'Raleway', sans-serif;
 */
 
 /* Escribe tu código acá debajo */
+
+* {
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+}
+
+/* Header + Título */
+header {
+	background-color: #F78E69;
+	background-size: cover; 
+	background-position: center; 
+	padding: 80px 30px;  	
+	text-align: right;	
+	color: white;	
+}
+
+.titulo {	
+	font-size: 60px;
+}
+
+/* Fondo 1 */
+.i1 {
+	background: url('../img/uno.jpg'); 
+	background-size: cover; 
+	background-position: center; 
+	padding: 250px 0; 
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);		
+}
+
+/* Sección About */
+.div-about {
+	background-color: #F78E69;
+	width: 520px;
+	margin: 5% 30%;
+	padding: 30px;
+	text-align: center;	
+	color: white;
+}
+
+.texto, .imagenes { /* Color de fondo y padding de la sección About y Pictures */
+	background-color: #F78E69;
+	padding: 30px 0; 		
+}
+
+.verde {
+	background-color: #ABE188;
+	padding: 30px 0; 
+	display:block;
+	text-align:center;		
+}
+
+.div-about h3 {
+	font-size: 25px;
+	padding-bottom: 15px;
+}
+
+.div-about p {
+	font-weight: 200;
+}
+
+/* Fondo 2 */
+.i2 {
+	background: url('../img/dos.jpg'); 
+	background-size: cover; 
+	background-position: center; 
+	padding: 280px 0; 
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);		
+}
+
+/* Pictures */
+.imagenes h1 {
+	color: white;
+	text-align: center;	
+	font-size: 50px;	
+	font-weight: 400;	
+	padding: 50px 60px;			
+}
+
+.fotos-pandas {
+	border: 10px solid white;
+	margin: 0 20px;
+	display: inline;
+	text-align: center;
+}
+
+/* Fondo 3 */
+.i3 {
+	background: url('../img/tres.jpg'); 
+	background-size: cover; 
+	background-position: center; 
+	padding: 280px 0; 
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);		
+}
+
+footer {
+	background-color: #F78E69;
+	padding: 10px;
+	text-align: right;	
+	color: white;	
+	font-weight: 400;	
+}
